@@ -1,0 +1,174 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* 顶部标题栏 */
+header {
+    background-color: #0047AB;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .bank-name {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* 表单样式 */
+.form-container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    background-color: #0047AB;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003580;
+}
+
+/* 测试用例表格样式，固定在左上角 */
+.test-users {
+    position: fixed; /* 固定定位 */
+    top: 10px; /* 距离顶部 10px */
+    left: 10px; /* 距离左侧 10px */
+    width: 300px; /* 表格宽度 */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    overflow: auto; /* 如果内容超出，允许滚动 */
+    z-index: 1000; /* 确保在其他内容之上 */
+}
+
+.test-users h2 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.test-users table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.test-users table th, .test-users table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.test-users table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.test-users table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* === 新增：专业A4表格样式 === */
+
+/* 报告容器 */
+.report-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 表格样式 */
+.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.report-table thead th {
+    background-color: #0047AB;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.report-table tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 14px;
+}
+
+.report-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.report-table tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+/* 页脚样式 */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #0047AB;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>貸款風險評估系統</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>貸款風險評估系統</h1>
+        <div class="bank-name">
+            <span>XXX 銀行</span>
+        </div>
+    </header>
+
+    <div class="form-container">
+        <!-- 表单 -->
+        <form id="loanForm" action="/predict_auto" method="POST">
+            <h2>自動化資料填報評估</h2>
+            <div class="form-group">
+                <label for="name">名字：</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="id_number">身分證：</label>
+                <input type="text" id="id_number" name="id_number" required>
+            </div>
+            <div class="form-group">
+                <label for="loan_amount">貸款金額：</label>
+                <input type="number" id="loan_amount" name="loan_amount" required>
+            </div>
+            <div class="form-group">
+                <label for="loan_type">貸款類型：</label>
+                <select id="loan_type" name="loan_type" required>
+                    <option value="房貸">房貸</option>
+                    <option value="車貸">車貸</option>
+                    <option value="信貸">信貸</option>
+                </select>
+            </div>
+            <button type="submit">提交</button>
+        </form>
+    </div>
+
+    <!-- 测试用例表格 -->
+    <div class="test-users">
+        <h2>可用測試用例</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>名字</th>
+                    <th>身分證號</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice Chen</td>
+                    <td>A123456789</td>
+                </tr>
+                <tr>
+                    <td>Bob Wang</td>
+                    <td>B987654321</td>
+                </tr>
+                <tr>
+                    <td>Cathy Lee</td>
+                    <td>C123789456</td>
+                </tr>
+                <tr>
+                    <td>David Lin</td>
+                    <td>D321654987</td>
+                </tr>
+                <tr>
+                    <td>Eva Tang</td>
+                    <td>E654987123</td>
+                </tr>
+                <tr>
+                    <td>Frank Liu</td>
+                    <td>F123789654</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

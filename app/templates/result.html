@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>貸款風險評估結果</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #0047AB;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #0047AB;
+            color: white;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #0047AB;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>貸款風險評估結果</h1>
+        <table>
+            <tr>
+                <th>項目</th>
+                <th>結果</th>
+            </tr>
+            <tr>
+                <td>名字：</td>
+                <td>{{ name }}</td>
+            </tr>
+            <tr>
+                <td>身分證號：</td>
+                <td>{{ id_number }}</td>
+            </tr>
+            <tr>
+                <td>貸款類型：</td>
+                <td>{{ loan_type }}</td>
+            </tr>
+            <tr>
+                <td>風險等級：</td>
+                <td>{{ decision }}</td>
+            </tr>
+            <tr>
+                <td>規則符合結果：</td>
+                <td>{{ reason }}</td>
+            </tr>
+            <tr>
+                <td>月薪：</td>
+                <td>{{ salary }}</td>
+            </tr>
+            <tr>
+                <td>信用分數：</td>
+                <td>{{ credit_score }}</td>
+            </tr>
+            <tr>
+                <td>貸款金額：</td>
+                <td>{{ loan_amount }}</td>
+            </tr>
+            <tr>
+                <td>DTI 比率：</td>
+                <td>{{ dti_ratio }}</td>
+            </tr>
+        </table>
+        <div class="footer">
+            <a href="/">返回首頁</a>
+        </div>
+    </div>
+</body>
+</html>

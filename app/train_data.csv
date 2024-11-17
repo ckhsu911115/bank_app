@@ -1,0 +1,26 @@
+ID,Name,Birthdate,Monthly_Salary,Credit_Score,Loan_Amount,Overdue_Count,Overdue_Amount,Max_Overdue_Days,Repayment_History,Employment_Status,Loan_Purpose,Assets_Value,Risk_Level
+1,Aaron Yang,1992/3/12,50000,720,2000000,1,10000,20,90,Full-Time,Personal Loan,5000000,Medium
+2,Betty Huang,1988/7/4,38000,650,1500000,3,20000,45,75,Part-Time,Car Loan,3000000,High
+3,Chris Kao,1995/1/18,60000,780,2500000,0,0,0,98,Full-Time,Mortgage,8000000,Low
+4,Diana Lin,1987/9/25,30000,600,1000000,2,15000,30,80,Unemployed,Personal Loan,2000000,High
+5,Ethan Wu,1990/5/11,55000,740,2200000,1,5000,15,85,Full-Time,Car Loan,6000000,Medium
+6,Fiona Wang,1996/12/20,42000,710,1800000,0,0,0,92,Part-Time,Personal Loan,3500000,Low
+7,Gary Chen,1985/4/15,35000,680,1400000,4,30000,60,70,Unemployed,Personal Loan,1500000,High
+8,Helen Lee,1993/8/7,52000,760,2300000,0,0,0,96,Full-Time,Mortgage,7000000,Low
+9,Ian Hsu,1998/6/30,65000,820,2800000,0,0,0,99,Full-Time,Mortgage,9000000,Low
+10,Julia Chou,1989/2/28,37000,640,1600000,2,10000,30,78,Part-Time,Car Loan,2800000,Medium
+11,Kenny Lin,1984/11/22,40000,700,1700000,1,5000,20,88,Full-Time,Personal Loan,3200000,Medium
+12,Linda Chang,1991/10/10,45000,730,1900000,0,0,0,95,Full-Time,Car Loan,4000000,Low
+13,Mike Sun,1997/4/14,70000,800,3000000,0,0,0,97,Full-Time,Mortgage,10000000,Low
+14,Nancy Fang,1982/5/19,32000,610,1200000,3,20000,40,75,Unemployed,Personal Loan,1800000,High
+15,Oscar Ho,1994/7/21,58000,750,2400000,0,0,0,93,Full-Time,Car Loan,6500000,Low
+16,Penny Tsai,1990/12/5,39000,690,2000000,1,7000,25,85,Part-Time,Personal Loan,3000000,Medium
+17,Quincy Wu,1992/8/17,48000,720,2100000,0,0,0,92,Full-Time,Car Loan,5500000,Low
+18,Rachel Yang,1986/3/9,28000,580,1100000,5,30000,70,60,Unemployed,Personal Loan,1000000,High
+19,Steven Fang,1980/11/11,44000,710,1900000,0,0,0,90,Full-Time,Mortgage,6000000,Low
+20,Tina Hsieh,1995/9/16,60000,770,2600000,0,0,0,98,Full-Time,Mortgage,8000000,Low
+21,Victor Liu,1985/7/14,53000,730,2200000,1,8000,18,87,Full-Time,Personal Loan,5000000,Medium
+22,Wendy Chen,1991/11/23,41000,680,1800000,2,12000,35,82,Part-Time,Car Loan,3500000,Medium
+23,Xavier Lee,1993/5/29,62000,790,2700000,0,0,0,95,Full-Time,Mortgage,8500000,Low
+24,Yvonne Wu,1988/2/17,36000,650,1400000,3,15000,40,77,Unemployed,Personal Loan,2500000,High
+25,Zack Huang,1996/8/6,47000,720,2000000,0,0,0,91,Full-Time,Car Loan,4000000,Low

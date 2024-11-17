@@ -1,0 +1,62 @@
+[
+    {
+        "loan_type": "房貸",
+        "rule": "DTI_ratio >= 40",
+        "message": "負債收入比超過 40%。",
+        "start_date": "2024-09-20"
+    },
+    {
+        "loan_type": "房貸",
+        "rule": "credit_score < 680",
+        "message": "信用評分低於 680。",
+        "start_date": "2024-09-20"
+    },
+    {
+        "loan_type": "房貸",
+        "rule": "employment_status != 0",
+        "message": "就業狀態不穩定。",
+        "start_date": "2024-09-20"
+    },
+    {
+        "loan_type": "房貸",
+        "rule": "assets_value <= 0",
+        "message": "缺乏足夠的資產作為抵押。",
+        "start_date": "2024-09-20"
+    },
+    {
+        "loan_type": "車貸",
+        "rule": "DTI_ratio >= 50",
+        "message": "負債收入比超過 50%。",
+        "start_date": "2024-09-20"
+    },
+    {
+        "loan_type": "車貸",
+        "rule": "credit_score < 650",
+        "message": "信用評分低於 650。",
+        "start_date": "2024-09-20"
+    },
+    {
+        "loan_type": "車貸",
+        "rule": "employment_status == 2",
+        "message": "無穩定收入來源。",
+        "start_date": "2024-09-20"
+    },
+    {
+        "loan_type": "信貸",
+        "rule": "DTI_ratio >= 35",
+        "message": "負債收入比超過 35%。",
+        "start_date": "2024-09-20"
+    },
+    {
+        "loan_type": "信貸",
+        "rule": "credit_score < 700",
+        "message": "信用評分低於 700。",
+        "start_date": "2024-09-20"
+    },
+    {
+        "loan_type": "信貸",
+        "rule": "employment_status != 0",
+        "message": "就業狀態不穩定。",
+        "start_date": "2024-09-20"
+    }
+]
